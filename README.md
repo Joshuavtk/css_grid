@@ -1,4 +1,4 @@
-##CSS GRID 
+# CSS GRID
 
-#online uitwerking:
+online uitwerking:
 nog niet.
