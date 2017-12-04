@@ -1,27 +1,582 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link type="text/css" rel="stylesheet" href="custom.css">
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <title>
+        http://keukentafel.nl/recipe-items/eten-we-vandaag-boerenkool-worst/</title>
 </head>
+
 <body>
 
-<div class="page">
-
-    <header class="title">
-
-    </header>
-
-    <div class="header">
-        <img src="boerenkool.jpg">
-    </div>
+    <div class="site">
 
 
+        <div class="page-titel">
+            <div id="login-thing">
+                Aanmelden | Inloggen
+                <div id="boodschappenlijst">
+                    <a class="pure-button" href="#">
+                        <div id="widescreens-icon">
+                            <i class="icon-shopping-cart"></i>
+                        </div>
+                        <div id="mobile-icon">
+                            <i class="icon-shopping-cart"></i>
+                        </div>
+                        <span class="text-widescreens">boodschappenlijst</span>
+                    </a>
+
+                    <div class="recipe-ingredients-shoppinglist" style="display: none;">
+                        <div class="recipe-ingredients-totals">
+                            <span class="recipe-ingredients-noitems" style="display: inline;">Je hebt nog geen artikelen aan je boodschappenlijstje toegevoegd</span>
+                            <ul class="recipe-ingredients-basket"></ul>
+                        </div>
+                        <span class="notice">Let op: Dit is geen online bestelling.</span>
+                        <ul class="links" style="display: none;">
+                            <li>
+                                <a href="#" class="recipe-ingredients-basket-empty">Lijst legen</a>
+                            </li>
+                            <li>
+                                <a href="#" class="recipe-ingredients-basket-print">Print</a>
+                            </li>
+                            <li>
+                                <a href="#" class="recipe-ingredients-basket-email">Email</a>
+                            </li>
+                        </ul>
+
+                        <!-- Mail form -->
+                        <form id="shoppinglist-form" style="display: none;">
+                            <div>
+                                <ul class="list-0 clear-fix">
+                                    <li>
+                                        <div class="block field-box">
+                                            <label for="sl-form-mail">Vul hier je e-mail adres in:</label>
+                                            <input placeholder="E-mailadres" name="sl-form-mail" id="sl-form-mail" value="" type="text">
+                                        </div>
+                                    </li>
+                                    <!-- Submit button -->
+                                    <li>
+                                        <div class="block field-box field-box-button">
+                                            <input id="sl-form-submit" name="sl-form-submit" class="button" value="Verzenden" type="submit">
+                                        </div>
+                                    </li>
+                                </ul>
+                                <input name="action" value="shoppinglist_form" type="hidden">
+                                <input id="scf_nonce" name="scf_nonce" value="70f2bcace6" type="hidden">
+                                <input name="_wp_http_referer" value="/recipe-items/eten-we-vandaag-boerenkool-worst/" type="hidden">
+                                <img class="scf-ajax" src="http://i61.tinypic.com/11kguf4.gif" alt="Sending Message" style="display: none;">
+                                <div class="formmessage">
+                                    <p></p>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <br>
+            </div>
+
+            <!-- /#navigation -->
+            <ul id="navigation" class="nav">
+                <li>
+                    <a href="http://keukentafel.nl/over/">Over</a>
+                </li>
+                <li>
+                    <a href="http://keukentafel.nl/recepten/">Recepten</a>
+                </li>
+                <li>
+                    <a href="http://keukentafel.nl/inspiratie/">Tips</a>
+                </li>
+                <li>
+                    <a href="http://keukentafel.nl/video/">Video’s</a>
+                </li>
+                <li>
+                    <a href="http://keukentafel.nl/herfst2017/">Magazine</a>
+                </li>
+                <li>
+                    <a href="http://keukentafel.nl/winnen/">Winnen</a>
+                </li>
+            </ul>
+            <!-- /#navigation -->
+
+            <div id="logo">
+                <a href="http://keukentafel.nl">
+                    <img alt="Coop Keukentafel" src="http://keukentafel.nl/wp-content/themes/food-cook-child/includes/images/logo-coop2_03.png">
+                </a>
+            </div>
 
 
-</div>
-    
+
+        </div>
+
+        <div class="header">
+            <img src="boerenkool.jpg">
+        </div>
+
+        <div class="hoofd-inhoud">
+            <h1 class="title fn" itemprop="name">Boerenkool met worst</h1>
+            <div class="pfprint_wrapper">
+                <div class="printfriendly pf-alignleft">
+                    <a href="#" rel="nofollow" onclick="window.print(); return false;" class="noslimstat" title="Printer Friendly, PDF &amp; Email">
+                        <img src="http://keukentafel.nl/wp-content/uploads/print-icon.png" alt="Print Friendly, PDF &amp; Email" style="display: inline">Print</a>
+                </div>
+                <div class="printfriendly pf-alignleft">
+                    <a class="save-button " title="Opslaan" href="http://keukentafel.nl/account/" data-recipe_id="10801">
+                        <em class="icon-heart"></em>
+                        <span>Opslaan</span>
+                    </a>
+                </div>
+            </div>
+            <ul class="recipe-info-single-big content-full print-only">
+                <li>
+                    <ul class="skill_level">
+                        <li>
+                            <em class="icon-refresh"></em>
+                        </li>
+                        <li>
+                            <i> Menu </i>
+                        </li>
+                        <a href="http://keukentafel.nl/course/hoofdgerecht/" rel="tag">Hoofdgerechten</a>
+                    </ul>
+                </li>
+                <li class="cook-time">
+                    <em class="icon-time"></em>
+                    <ul>
+                        <li>
+                            <i>Bereidingstijd</i>
+                        </li>
+                        <li class="cooktime">
+                            <time title="PT30M" class="value-title"> 30</time>
+                            Minuten </li>
+                    </ul>
+                </li>
+                <li class="yield">
+                    <em class="icon-food"></em>
+                    <ul>
+                        <li>
+                            <i>Personen</i>
+                        </li>
+                        <li class="yield"> 4</li>
+                    </ul>
+                </li>
+                <li>
+                    <ul class="skill_level">
+                        <li>
+                            <em class="icon-bullseye"></em>
+                        </li>
+                        <li>
+                            <i> Seizoen </i>
+                        </li>
+                        <a href="http://keukentafel.nl/skill-level/winter/" rel="tag">Winter</a>
+                    </ul>
+                </li>
+                <li class="rating_wrapper print-no">
+
+                    <div class="rating-single hreview-aggregate" itemprop="reviews" itemscope="" itemtype="http://schema.org/AggregateRating">
+                        <p>GEM. Waardering</p>
+                        <ul class="rating">
+                            <li>
+                                <span class="on"></span>
+                                <span class="on"></span>
+                                <span class="on"></span>
+                                <span class="on"></span>
+                                <span class="off"></span>
+                            </li>
+                        </ul>
+                    </div>
+
+                </li>
+                <div></div>
+            </ul>
+
+            <iframe src="https://www.youtube.com/embed/P1VvOBV2wBM" allowfullscreen="" id="video" frameborder="0"></iframe>
+            <h3>Instructies</h3>
+            <ul class='metstep'>
+                <li>
+                    <span>1. </span>Breng een pan met water en een snuf zout aan de kook. Kook de aardappelen samen met de boerenkool
+                    18 minuten. Giet af, vang een beetje kookvocht op en bewaar de groenten in de pan.
+                </li>
+                <li>
+                    <span>2. </span>Verwarm ondertussen een pan met water een bereid de rookworst volgens de aanwijzingen op de
+                    verpakking.
+                </li>
+                <li>
+                    <span>3. </span>Verhit vervolgens een koekenpan en bak de spekjes in 6 minuten goudbruin en krokant. Stamp
+                    de aardappelen en de boerenkool met een stamper fijn, voeg een klontje boter en eventueel een beetje
+                    kookvocht toe en roer tot een romige stamppot.
+                </li>
+                <li>
+                    <span>4. </span>Verdeel de boerenkoolstamppot over de borden en serveer de met worst en de spekjes.
+                </li>
+            </ul>
+
+            <div class="includesluding_wrapper">
+                <div class="content-includesluding">
+                    <!-- includesluding Nutritional Info part -->
+                </div>
+
+                <div class="content-tag">
+                    <!-- includesluding Ingredient Tags -->
+
+                    <div class="nutritional print-no">
+                        <h3>Meer over</h3>
+                        <ul class="tags">
+                            <li>
+                                <a href="http://keukentafel.nl/ingredient/aardappel/" rel="tag">Aardappel</a>
+                            </li>
+                            <li>
+                                <a href="http://keukentafel.nl/ingredient/boerenkool/" rel="tag">Boerenkool</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="recipe-share content-full">
+                <div class="share-icon"></div>
+                <div class="share">
+                    <a href="mailto:?subject=Ik wil je graag attenderen op de volgende pagina http://keukentafel.nl/recipe-items/eten-we-vandaag-boerenkool-worst/"
+                        class="eml" title="Email"> </a>
+                    <a class="twit" title="Twitter" onclick="window.open('http://twitter.com/home?status=Boerenkool+met+worst - http://keukentafel.nl/recipe-items/eten-we-vandaag-boerenkool-worst/','twitter','width=450,height=300,left='+(screen.availWidth/2-375)+',top='+(screen.availHeight/2-150)+'');return false;"
+                        href="http://twitter.com/home?status=Boerenkool+met+worst%20-%20http://keukentafel.nl/recipe-items/eten-we-vandaag-boerenkool-worst/"></a>
+                    <a class="face" title="Facebook" onclick="window.open('http://www.facebook.com/share.php?u=http://keukentafel.nl/recipe-items/eten-we-vandaag-boerenkool-worst/','facebook','width=450,height=300,left='+(screen.availWidth/2-375)+',top='+(screen.availHeight/2-150)+'');return false;"
+                        href="http://www.facebook.com/share.php?u=http://keukentafel.nl/recipe-items/eten-we-vandaag-boerenkool-worst/"></a>
+                    <a class="goo" title="Google plus" href="https://m.google.com/app/plus/x/?v=compose&amp;content=Boerenkool+met+worst%20-%20http://keukentafel.nl/recipe-items/eten-we-vandaag-boerenkool-worst/"
+                        onclick="window.open('https://m.google.com/app/plus/x/?v=compose&amp;content=Boerenkool+met+worst - http://keukentafel.nl/recipe-items/eten-we-vandaag-boerenkool-worst/','gplusshare','width=450,height=300,left='+(screen.availWidth/2-375)+',top='+(screen.availHeight/2-150)+'');return false;"></a>
+                    <span class="PIN_1512330873442_button_pin PIN_1512330873442_save" data-pin-log="button_pinit_bookmarklet" data-pin-href="https://nl.pinterest.com/pin/create/button/">Bewaren</span>
+                </div>
+                <div class="rate-box">
+                    <div class="rate-left">
+
+                        <p>Waardeer dit gerecht</p>
+                        <form action="http://keukentafel.nl/wp-admin/admin-ajax.php" method="post" id="rate-product">
+                            <p class="rates">
+                                <span class="off"></span>
+                                <span class="off"></span>
+                                <span class="off"></span>
+                                <span class="off"></span>
+                                <span class="off"></span>
+                                <input name="selected_rating" id="selected_rating" value="" type="hidden">
+                                <input name="post_id" value="10801" type="hidden">
+                                <input name="action" value="rate_this" type="hidden">
+                            </p>
+                        </form>
+                        <p id="output"></p>
+                    </div>
+
+                </div>
+                <!-- end of rate-box div -->
+
+                <div class="clear"></div>
+            </div>
+        </div>
+
+        <div class="zijbalk">
+            <h3>Ingrediënten</h3>
+            <ul class="ingre recipe-ingredients" data-recipe-id="1">
+                <li>
+                    <span class="recipe-ingredient">1 kilo kruimige aardappelen</span>
+                </li>
+                <li>
+                    <span class="recipe-ingredient">500 gr boerenkool</span>
+                </li>
+                <li>
+                    <span class="recipe-ingredient">250 gr spekjes</span>
+                </li>
+                <li>
+                    <span class="recipe-ingredient">1 rookworst</span>
+                </li>
+            </ul>
+            <a href="#" class="recipe-ingredients-add-all pure-button" data-recipe-id="1">
+                <i class="fa icon-list fa-lg"></i>Voeg alles toe</a>
+            <br>
+            <a class="recipe-ingredients-view-list">Bekijk je boodschappenlijstje</a>
+
+        </div>
+
+        <div class="footer">
+            <div class="related-recipe">
+                <div class="col-full">
+                    <h3>Gerelateerde recepten</h3>
+
+                    <div class="hentry post-12165 recipe type-recipe status-publish has-post-thumbnail course-bijgerecht ingredient-aardappel ingredient-spekjes ingredient-zuurkool skill_level-herfst-3 recipe_location-herfst-4 recipe_location-homepage-2">
+
+                        <div class="recipe-grid-item rec-drop entry-summary entry-content author vcard updated" id="post-12165">
+
+                            <div class="th-recipe fn">
+
+                                <div class="snipit">
+                                    <a href="http://keukentafel.nl/recipe-items/zuurkoolkoekjes/">
+                                        <ul class="recipe-info-page">
+                                            <li>
+                                                <div class="fork"></div>
+                                            </li>
+
+                                            <li>
+                                                <span class="value">4</span>
+                                                Personen </li>
+                                            <li>
+                                                <span class="value">40 Min</span>
+                                                Bereidingstijd
+                                            </li>
+                                        </ul>
+                                    </a>
+
+                                </div>
+                                <img width="400" height="223" src="http://keukentafel.nl/wp-content/uploads/2017/11/zuurkool-400x223.jpg" class="attachment-recipe-listing size-recipe-listing wp-post-image"
+                                    alt="" />
+                            </div>
+
+
+                            <div class="recipe-info">
+
+                                <div class="rating">
+                                    <span class="on"></span>
+                                    <span class="on"></span>
+                                    <span class="on"></span>
+                                    <span class="on"></span>
+                                    <span class="on"></span>
+                                </div>
+
+
+                                <h3 class="entry-title">
+                                    <a href="http://keukentafel.nl/recipe-items/zuurkoolkoekjes/">Zuurkoolkoekjes</a>
+                                </h3>
+                            </div>
+
+                        </div>
+                        <!-- end of post div -->
+
+                    </div>
+                    <!-- /.post -->
+
+
+                    <div class="hentry post-12107 recipe type-recipe status-publish has-post-thumbnail course-hoofdgerecht ingredient-aardappel ingredient-hamburger ingredient-spruitjes skill_level-herfst-3 recipe_location-herfst-4 recipe_location-hollands recipe_location-homepage-2">
+
+                        <div class="recipe-grid-item rec-drop entry-summary entry-content author vcard updated" id="post-12107">
+
+                            <div class="th-recipe fn">
+
+                                <div class="snipit">
+                                    <a href="http://keukentafel.nl/recipe-items/aardappelgratin-spruitjes-en-hamburger/">
+                                        <ul class="recipe-info-page">
+                                            <li>
+                                                <div class="fork"></div>
+                                            </li>
+
+                                            <li>
+                                                <span class="value">4</span>
+                                                Personen </li>
+                                            <li>
+                                                <span class="value">30 Min</span>
+                                                Bereidingstijd
+                                            </li>
+                                        </ul>
+                                    </a>
+
+                                </div>
+                                <img width="400" height="223" src="http://keukentafel.nl/wp-content/uploads/2017/10/spruitjes-400x223.jpg" class="attachment-recipe-listing size-recipe-listing wp-post-image"
+                                    alt="" />
+                            </div>
+
+
+                            <div class="recipe-info">
+
+                                <div class="rating">
+                                    <span class="on"></span>
+                                    <span class="on"></span>
+                                    <span class="on"></span>
+                                    <span class="on"></span>
+                                    <span class="off"></span>
+                                </div>
+
+
+                                <h3 class="entry-title">
+                                    <a href="http://keukentafel.nl/recipe-items/aardappelgratin-spruitjes-en-hamburger/">Aardappelgratin met spruitjes en hamburger</a>
+                                </h3>
+                            </div>
+
+                        </div>
+                        <!-- end of post div -->
+
+                    </div>
+                    <!-- /.post -->
+
+
+                    <div class="hentry post-11945 recipe type-recipe status-publish has-post-thumbnail course-hoofdgerecht ingredient-aardappel ingredient-andijvie ingredient-stamppot ingredient-zalm skill_level-herfst-3 recipe_location-herfst-4 recipe_location-hollands recipe_location-homepage-2">
+
+                        <div class="recipe-grid-item rec-drop entry-summary entry-content author vcard updated" id="post-11945">
+
+                            <div class="th-recipe fn">
+
+                                <div class="snipit">
+                                    <a href="http://keukentafel.nl/recipe-items/andijviestamppot/">
+                                        <ul class="recipe-info-page">
+                                            <li>
+                                                <div class="fork"></div>
+                                            </li>
+
+                                            <li>
+                                                <span class="value">4</span>
+                                                Personen </li>
+                                            <li>
+                                                <span class="value">35 Min</span>
+                                                Bereidingstijd
+                                            </li>
+                                        </ul>
+                                    </a>
+
+                                </div>
+                                <img width="400" height="223" src="http://keukentafel.nl/wp-content/uploads/2017/10/stamppot-400x223.jpg" class="attachment-recipe-listing size-recipe-listing wp-post-image"
+                                    alt="" />
+                            </div>
+
+
+                            <div class="recipe-info">
+
+                                <div class="rating">
+                                    <span class="on"></span>
+                                    <span class="on"></span>
+                                    <span class="on"></span>
+                                    <span class="on"></span>
+                                    <span class="on"></span>
+                                </div>
+
+
+                                <h3 class="entry-title">
+                                    <a href="http://keukentafel.nl/recipe-items/andijviestamppot/">Andijviestamppot met warmgerookte zalm en gekarameliseerde boter</a>
+                                </h3>
+                            </div>
+
+                        </div>
+                        <!-- end of post div -->
+
+                    </div>
+                    <!-- /.post -->
+
+
+                    <div class="hentry post-11037 recipe type-recipe status-publish has-post-thumbnail course-hoofdgerecht ingredient-aardappel ingredient-wortel ingredient-zalm skill_level-lente recipe_location-herfst-4 recipe_location-hollands recipe_location-homepage-2">
+
+                        <div class="recipe-grid-item rec-drop entry-summary entry-content author vcard updated" id="post-11037">
+
+                            <div class="th-recipe fn">
+
+                                <div class="snipit">
+                                    <a href="http://keukentafel.nl/recipe-items/zalmfilet-met-worteltjes-in-roomsaus/">
+                                        <ul class="recipe-info-page">
+                                            <li>
+                                                <div class="fork"></div>
+                                            </li>
+
+                                            <li>
+                                                <span class="value">4</span>
+                                                Personen </li>
+                                            <li>
+                                                <span class="value">30 Min</span>
+                                                Bereidingstijd
+                                            </li>
+                                        </ul>
+                                    </a>
+
+                                </div>
+                                <img width="400" height="223" src="http://keukentafel.nl/wp-content/uploads/2017/09/zalmfilet-wortels-aardappelpartjes-400x223.jpg"
+                                    class="attachment-recipe-listing size-recipe-listing wp-post-image" alt="" />
+                            </div>
+
+
+                            <div class="recipe-info">
+
+                                <div class="rating">
+                                    <span class="on"></span>
+                                    <span class="on"></span>
+                                    <span class="on"></span>
+                                    <span class="on"></span>
+                                    <span class="on"></span>
+                                </div>
+
+
+                                <h3 class="entry-title">
+                                    <a href="http://keukentafel.nl/recipe-items/zalmfilet-met-worteltjes-in-roomsaus/">Zalmfilet met worteltjes in roomsaus</a>
+                                </h3>
+                            </div>
+
+                        </div>
+                        <!-- end of post div -->
+
+                    </div>
+                    <!-- /.post -->
+
+                </div>
+            </div>
+
+
+
+
+
+            <a href="#" class="go-top">
+                <div class="icon-chevron-up"></div>
+            </a>
+
+
+            <div id="footer-wrap">
+
+                <div id="footer-widgets" class="col-full col-4">
+
+                    <div class="block footer-widget-1">
+                        <div id="text-2" class="widget widget_text">
+                            <div class="textwidget">
+                                <a href="http://www.coop.nl/aanbiedingen/" target="_Blank">
+                                    <img src="http://keukentafel.nl/wp-content/uploads/aanbieding1.jpg" alt="aanbieding" width="243"
+                                        height="131" class="alignnone size-full wp-image-1391" />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="block footer-widget-2">
+                        <div id="text-3" class="widget widget_text">
+                            <div class="textwidget">
+                                <a href="http://mijn.coop.nl/nieuwsbrief/aanmelden-nieuwsbrief" target="_Blank">
+                                    <img src="http://keukentafel.nl/wp-content/uploads/nieuwsbrief.jpg" alt="nieuwsbrief" width="243"
+                                        height="131" class="alignnone size-full wp-image-1394" />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="block footer-widget-3">
+                        <div id="text-4" class="widget widget_text">
+                            <div class="textwidget">
+                                <a href="https://www.coop.nl" target="_Blank">
+                                    <img src="http://keukentafel.nl/wp-content/uploads/online.jpg" alt="Coop online" width="243"
+                                        height="131" class="alignnone size-full wp-image-1393" />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="block footer-widget-4">
+                        <div id="text-5" class="widget widget_text">
+                            <div class="textwidget">
+                                <a href="http://www.coop.nl" Target="_blank">
+                                    <img src="http://keukentafel.nl/wp-content/uploads/coopwinkel.jpg" alt="winkels" width="243"
+                                        height="131" class="alignnone size-full wp-image-1392" />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+
 </body>
+
 </html>
